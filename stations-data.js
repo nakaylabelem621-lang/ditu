@@ -256,15 +256,17 @@ window.BASE_STATIONS = [
     "name": "上海市宝山区庙行镇残疾人服务社",
     "address": "共康八村52号二楼",
     "people": 17,
+    "contact": "桑晔",
+    "phone": "13817354616",
     "lat": 31.32359,
     "lng": 121.432239,
     "workSample": {
       "product": "茶渣有机肥分装",
-      "quantity": "5kg（500袋）",
+      "quantity": "20KG（2000袋）",
       "company": "霸王茶姬",
       "issueDate": "2026年5月8日",
       "deliveryDate": "2026年5月23日",
-      "progress": "——%"
+      "progress": "80%"
     }
   },
   {

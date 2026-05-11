@@ -47,6 +47,13 @@
         +
       </button>
 
+      <div class="detail-overlay" id="detailOverlay" hidden>
+        <section class="detail-overlay__panel" id="detailOverlayPanel" role="dialog" aria-modal="false" aria-labelledby="detailOverlayTitle">
+          <button class="detail-overlay__close" id="detailOverlayClose" type="button" aria-label="关闭">×</button>
+          <div id="detailOverlayContent"></div>
+        </section>
+      </div>
+
       <div class="upload-modal" id="uploadModal" hidden>
         <div class="upload-modal__backdrop" id="uploadModalBackdrop"></div>
         <section class="upload-modal__card" role="dialog" aria-modal="true" aria-labelledby="uploadModalTitle">
