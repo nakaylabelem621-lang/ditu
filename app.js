@@ -102,11 +102,8 @@ function initMap() {
   L.tileLayer('https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}', {
     maxZoom: 18,
     attribution: '© 高德地图'
-})
-, {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }).addTo(map);
+}).addTo(map);
+
 
   map.on("popupopen", (event) => {
     map.stop();
